@@ -1,0 +1,430 @@
+{
+  "content" : {
+    "allowMaxFieldLength" : "false",
+    "bigIntConvertType" : "ONLY_BIGINT",
+    "documentType" : "MAPPING",
+    "name" : "m_export_1",
+    "specialCharacterSupport" : "false",
+    "links" : [
+      {
+        "link" : "Source -> Target"
+      }
+    ],
+    "transformations" : [
+      {
+        "createTime" : "2025-09-23T04:33:12.613Z",
+        "name" : "Source",
+        "advancedProperties" : [
+          {
+            "name" : "Tracing Level",
+            "value" : "Normal"
+          },
+          {
+            "name" : "Output is deterministic",
+            "value" : "false"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "false",
+            "name" : "DefaultGroup",
+            "output" : "true"
+          }
+        ],
+        "generateFilenamePort" : "false",
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "NAME"
+            },
+            "name" : "NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 30,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEPT_ID"
+            },
+            "name" : "DEPT_ID",
+            "platformType" : {
+              "name" : "double"
+            },
+            "precision" : 15,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEL1"
+            },
+            "name" : "DEL1",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEL2"
+            },
+            "name" : "DEL2",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEL3"
+            },
+            "name" : "DEL3",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEL4"
+            },
+            "name" : "DEL4",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEL5"
+            },
+            "name" : "DEL5",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEL6"
+            },
+            "name" : "DEL6",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEL7"
+            },
+            "name" : "DEL7",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 100,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@kuIPjqkfyKPlC2i4bXt2AO",
+          "connectionName" : "haripriya_oracle_test",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "Oracle",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "C04691453/EMPLOYEE",
+            "dbSchema" : "C04691453",
+            "label" : "EMPLOYEE",
+            "objectName" : "EMPLOYEE",
+            "path" : "C04691453/EMPLOYEE",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "NAME",
+                "nativeName" : "NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 30,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEE"
+                  }
+                ]
+              },
+              {
+                "name" : "DEPT_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEPT_ID",
+                "nativeName" : "DEPT_ID",
+                "nativeType" : "double",
+                "original" : "false",
+                "precision" : 15,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEE"
+                  }
+                ]
+              },
+              {
+                "name" : "DEL1",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEL1",
+                "nativeName" : "DEL1",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEE"
+                  }
+                ]
+              },
+              {
+                "name" : "DEL2",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEL2",
+                "nativeName" : "DEL2",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEE"
+                  }
+                ]
+              },
+              {
+                "name" : "DEL3",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEL3",
+                "nativeName" : "DEL3",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEE"
+                  }
+                ]
+              },
+              {
+                "name" : "DEL4",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEL4",
+                "nativeName" : "DEL4",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEE"
+                  }
+                ]
+              },
+              {
+                "name" : "DEL5",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEL5",
+                "nativeName" : "DEL5",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEE"
+                  }
+                ]
+              },
+              {
+                "name" : "DEL6",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEL6",
+                "nativeName" : "DEL6",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEE"
+                  }
+                ]
+              },
+              {
+                "name" : "DEL7",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEL7",
+                "nativeName" : "DEL7",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 100,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEE"
+                  }
+                ]
+              }
+            ]
+          },
+          "readOptions" : {
+            "commandType" : 0,
+            "descending" : "false",
+            "queryAll" : "false",
+            "rowLimit" : 0,
+            "selectDistinct" : "false"
+          }
+        }
+      },
+      {
+        "createTime" : "2025-09-23T04:33:12.613Z",
+        "name" : "Target",
+        "advancedProperties" : [
+          {
+            "name" : "Forward Rejected Rows",
+            "value" : "true"
+          }
+        ],
+        "groups" : [
+          {
+            "input" : "true",
+            "name" : "DefaultGroup",
+            "output" : "false",
+            "rules" : [
+              {
+                "bulkRename" : "false",
+                "include" : "true"
+              }
+            ]
+          }
+        ],
+        "createTarget" : "false",
+        "fieldMappingMode" : "BY_NAME",
+        "inputSorted" : "false",
+        "schemaProviderType" : "SELECTED_OBJECT",
+        "targetFieldsOrdered" : "false",
+        "updateColumns" : null,
+        "useLabels" : "false",
+        "useSequenceFields" : "false",
+        "fields" : [
+          {
+            "adapterField" : {
+              "name" : "NAME"
+            },
+            "name" : "NAME",
+            "platformType" : {
+              "name" : "string"
+            },
+            "precision" : 30,
+            "scale" : 0
+          },
+          {
+            "adapterField" : {
+              "name" : "DEPT_ID"
+            },
+            "name" : "DEPT_ID",
+            "platformType" : {
+              "name" : "double"
+            },
+            "precision" : 15,
+            "scale" : 0
+          }
+        ],
+        "dataAdapter" : {
+          "connectionId" : "saas:@kuIPjqkfyKPlC2i4bXt2AO",
+          "connectionName" : "haripriya_oracle_test",
+          "excludeDynamicFileNameField" : "false",
+          "objectType" : "SINGLE",
+          "typeSystem" : "Oracle",
+          "useDynamicFileName" : "false",
+          "object" : {
+            "name" : "C04691453/EMPLOYEES",
+            "dbSchema" : "C04691453",
+            "label" : "EMPLOYEES",
+            "objectName" : "EMPLOYEES",
+            "path" : "C04691453/EMPLOYEES",
+            "retainMetadata" : "false",
+            "fields" : [
+              {
+                "name" : "NAME",
+                "fieldType" : "CONNECTOR",
+                "label" : "NAME",
+                "nativeName" : "NAME",
+                "nativeType" : "varchar",
+                "original" : "false",
+                "precision" : 30,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEES"
+                  }
+                ]
+              },
+              {
+                "name" : "DEPT_ID",
+                "fieldType" : "CONNECTOR",
+                "label" : "DEPT_ID",
+                "nativeName" : "DEPT_ID",
+                "nativeType" : "double",
+                "original" : "false",
+                "precision" : 15,
+                "scale" : 0,
+                "properties" : [
+                  {
+                    "name" : "parentObject",
+                    "value" : "C04691453/EMPLOYEES"
+                  }
+                ]
+              }
+            ]
+          },
+          "writeOptions" : {
+            "batchSize" : 0,
+            "bulkApi" : "false",
+            "handleDecimalRoundOff" : "false",
+            "handleSpecialChars" : "false",
+            "operations" : [
+              "Insert"
+            ],
+            "setFieldsToNull" : "false",
+            "truncate" : "false",
+            "useErrorFile" : "false",
+            "useExactSrcNames" : "false",
+            "useSuccessFile" : "false"
+          }
+        }
+      }
+    ]
+  },
+  "vcsExportTime" : "2026-02-06 18:51:03 IST"
+}

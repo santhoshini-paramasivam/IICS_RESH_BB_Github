@@ -1,0 +1,50 @@
+{
+  "objectInfo" : {
+    "id" : "6VpLjKqHBQCbl0BFgcYnA4",
+    "name" : "m_export_2",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CZHD170000000000QA"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "updateTime" : "2026-02-06T13:21:04.183Z",
+  "objectRefs" : [ {
+    "id" : "kuIPjqkfyKPlC2i4bXt2AO",
+    "name" : "haripriya_oracle_test",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CZHD0B000000000030"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
+}

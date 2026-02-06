@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "ayFtzZ20ACYeVRiPo6SOuJ",
+    "name" : "2.Sandy",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Created for testing folder name with number and spl char",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2026-02-06T13:21:04.184Z",
+  "objectRefs" : [ ],
+  "readableFileExtension" : null,
+  "readableFilePresent" : false
+}

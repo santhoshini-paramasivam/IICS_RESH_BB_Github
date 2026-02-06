@@ -1,0 +1,129 @@
+{
+  "name" : "mt_export_1",
+  "runtimeEnvironmentId" : "@8pHQ5xMrxlCcPQls6Vz4Al",
+  "runtimeEnvironmentName" : "__sandy",
+  "maxLogs" : 10,
+  "parameters" : [
+    {
+      "name" : "$Source$",
+      "type" : "EXTENDED_SOURCE",
+      "label" : "Source",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "isSelectDistinct" : "false",
+        "isMsrcFilterParameterized" : "false",
+        "isMsrcSortParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "flags" : "SUPPORTS_MULTI_SCHEMA",
+        "originalPath" : "Source"
+      },
+      "sourceConnectionId" : "@kuIPjqkfyKPlC2i4bXt2AO",
+      "connectionName" : "haripriya_oracle_test",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "object" : {
+          "name" : "C04691453/EMPLOYEE",
+          "label" : "EMPLOYEE",
+          "metadataUpdated" : false,
+          "dbSchema" : "C04691453"
+        },
+        "singleMode" : true,
+        "objects" : [
+          {
+            "name" : "C04691453/EMPLOYEE",
+            "label" : "EMPLOYEE",
+            "metadataUpdated" : false,
+            "dbSchema" : "C04691453"
+          }
+        ]
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    },
+    {
+      "name" : "$Target$",
+      "type" : "TARGET",
+      "label" : "Target",
+      "uiProperties" : {
+        "connectionParameterized" : "false",
+        "objectParameterized" : "false",
+        "visible" : "false",
+        "flags" : "SUPPORTS_MULTI_SCHEMA",
+        "supportApplyDDLChanges" : "true",
+        "originalPath" : "Target"
+      },
+      "targetConnectionId" : "@kuIPjqkfyKPlC2i4bXt2AO",
+      "connectionName" : "haripriya_oracle_test",
+      "targetObject" : "C04691453/EMPLOYEES",
+      "targetObjectLabel" : "EMPLOYEES",
+      "newFlatFile" : false,
+      "newObject" : false,
+      "showBusinessNames" : false,
+      "naturalOrder" : true,
+      "truncateTarget" : false,
+      "bulkApiDBTarget" : false,
+      "operationType" : "Insert",
+      "customFuncCfg" : { },
+      "extendedObject" : {
+        "singleMode" : true
+      },
+      "commandType" : 0,
+      "handleSpecialChars" : false,
+      "handleDecimalRoundOff" : false,
+      "frsAsset" : false,
+      "dynamicFileName" : false,
+      "excludeDynamicFileNameField" : false,
+      "currentlyProcessedFileName" : false,
+      "retainFieldMetadata" : false,
+      "objectName" : "C04691453/EMPLOYEES",
+      "objectLabel" : "EMPLOYEES",
+      "useExactSrcNames" : false,
+      "userUpdated" : true,
+      "runtimeParameterData" : {
+        "connectionRuntimeParameter" : false,
+        "objectRuntimeParameter" : false
+      },
+      "dbSchema" : "C04691453",
+      "restmodernSource" : true,
+      "unspecified" : false,
+      "fileList" : false
+    }
+  ],
+  "verbose" : false,
+  "mappingId" : "@95myfrfBCOMck84jScVb8s",
+  "mappingTemplateName" : "m_export_1",
+  "hidden" : false,
+  "enableCrossSchemaPushdown" : false,
+  "enableParallelRun" : false,
+  "autoTunedApplied" : false,
+  "autoTunedAppliedType" : "NONE",
+  "schemaMode" : "async",
+  "valid" : true,
+  "optimizationPlan" : "NONE",
+  "allowMaxFieldLength" : false,
+  "specialCharacterSupport" : false,
+  "midstreamPreview" : false,
+  "vcsExportTime" : "2026-02-06 18:51:04 IST"
+}
