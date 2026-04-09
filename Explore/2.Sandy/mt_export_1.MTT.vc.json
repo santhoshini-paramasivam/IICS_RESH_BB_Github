@@ -1,5 +1,6 @@
 {
   "name" : "mt_export_1",
+  "description" : "test",
   "runtimeEnvironmentId" : "@8pHQ5xMrxlCcPQls6Vz4Al",
   "runtimeEnvironmentName" : "__sandy",
   "maxLogs" : 10,
@@ -54,6 +55,7 @@
       "retainFieldMetadata" : false,
       "useExactSrcNames" : false,
       "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -101,6 +103,7 @@
       "objectLabel" : "EMPLOYEES",
       "useExactSrcNames" : false,
       "userUpdated" : true,
+      "fetchMode" : "ORIGINAL",
       "runtimeParameterData" : {
         "connectionRuntimeParameter" : false,
         "objectRuntimeParameter" : false
@@ -125,5 +128,5 @@
   "allowMaxFieldLength" : false,
   "specialCharacterSupport" : false,
   "midstreamPreview" : false,
-  "vcsExportTime" : "2026-02-06 18:51:04 IST"
+  "vcsExportTime" : "2026-04-09 11:51:40 IST"
 }

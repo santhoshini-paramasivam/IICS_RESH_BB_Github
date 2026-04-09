@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : null,
+        "description" : "test",
         "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2026-02-06T13:21:04.183Z",
+  "updateTime" : "2026-04-09T06:21:40.457Z",
   "objectRefs" : [ {
     "id" : "kuIPjqkfyKPlC2i4bXt2AO",
     "name" : "haripriya_oracle_test",
@@ -76,10 +76,7 @@
       "repoInfo" : {
         "repoHandle" : "01CZHD170000000000QB"
       },
-      "contextAttributes" : [ {
-        "name" : "id",
-        "value" : "@1"
-      } ],
+      "contextAttributes" : null,
       "additionalInfo" : {
         "description" : "",
         "contentType" : "JSON",
